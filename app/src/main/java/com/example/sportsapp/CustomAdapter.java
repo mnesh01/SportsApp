@@ -48,7 +48,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.SportsView
         holder.textView.setText(sport.sportName);
         holder.imageView.setImageResource(sport.sportImg);
 
-
     }
 
     @Override
